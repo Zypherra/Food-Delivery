@@ -16,4 +16,4 @@ export const assets ={
 
 export const url = import.meta.env.MODE === "development" 
     ? "http://localhost:4000" 
-    : "https://onrender.com";
+    : "https://food-delivery-backend-jpr8.onrender.com";
