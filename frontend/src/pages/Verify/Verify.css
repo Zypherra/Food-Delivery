@@ -1,0 +1,102 @@
+.verify {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.verify-content {
+    text-align: center;
+    background: white;
+    padding: 60px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    background: #4caf50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 auto 20px;
+}
+
+.method-icon {
+    font-size: 40px;
+}
+
+.error-icon {
+    width: 80px;
+    height: 80px;
+    background: #f44336;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 auto 20px;
+}
+
+.verify-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.method-name {
+    font-size: 18px;
+    color: #4caf50;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.message {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.redirect-message {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
+@media (max-width: 768px) {
+    .verify-content {
+        padding: 40px 20px;
+    }
+
+    .success-icon,
+    .error-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 40px;
+    }
+
+    .method-icon {
+        font-size: 32px;
+    }
+
+    .verify-content h2 {
+        font-size: 24px;
+    }
+
+    .method-name {
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+}
